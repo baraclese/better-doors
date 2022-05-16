@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "baraclese.better_doors.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "RecipeDispatcherMixin",
+    "WoodenDoorItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

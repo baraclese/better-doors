@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "better_doors",
+  "version": "${version}",
+  "name": "Better Doors",
+  "description": "Craft three doors instead of one and stack up to 64.",
+  "authors": [
+    "baraclese"
+  ],
+  "contact": {
+    "homepage": "https://github.com/baraclese/better-doors",
+    "sources": "https://github.com/baraclese/better-doors"
+  },
+  "license": "BSD-2-Clause",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "baraclese.better_doors.BetterDoorsMod"
+    ]
+  },
+  "mixins": [
+    "better_doors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.6.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
